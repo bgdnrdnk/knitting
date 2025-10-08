@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Бабушка связала - Тепло и уют в каждом стежке</title>
+    <title>Интернет-магазин вязаных вещей ручной работы | Бабушка связала</title>
+    <meta name="description" content="Купить теплые свитера, носки, шарфы и шапки ручной вязки. Доставка по России. Заказывайте уникальные изделия из натуральной пряжи от бабушки!">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -371,6 +372,49 @@
             border-radius: 10px;
         }
 
+        /* Shipping Section */
+        .shipping-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            text-align: left;
+            margin-top: 40px;
+        }
+
+        .shipping-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .shipping-info h3 {
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .shipping-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .shipping-info li {
+            margin-bottom: 10px;
+            font-size: 1.05em;
+        }
+
+        .cta-section {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+
+        .cta-section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: var(--text-color);
+        }
+
         /* Footer */
         .footer {
             background-color: var(--accent-color);
@@ -523,9 +567,9 @@
 
     <section id="hero" class="hero">
         <div class="hero-content">
-            <h1>Зима близко, но дома тепло и уютно!</h1>
-            <p>Окутайтесь в тепло, связанное с любовью бабушкиными руками. Свитера, носки, шарфы и шапки – для вас и ваших близких.</p>
-            <a href="#products" class="cta-button">Смотреть каталог</a>
+            <h1>Вязаные вещи ручной работы на заказ</h1>
+            <p>Купите уникальные теплые изделия из натуральной пряжи. Быстрая доставка и обратная связь. Закажите теплый свитер, носки или шарф прямо сейчас!</p>
+            <a href="#products" class="cta-button">Заказать товар</a>
         </div>
     </section>
 
@@ -552,39 +596,121 @@
             <div class="product-grid">
                 <div class="product-card">
                     <!-- Сгенерированное изображение для "Уютный шерстяной свитер" -->
-                    <img src="https://image.pollinations.ai/prompt/cozy%20knitted%20wool%20sweater%2C%20natural%20colors%2C%20soft%20texture%2C%20photorealistic%2C%20studio%20lighting?width=800&height=250&seed=3" alt="Шерстяной свитер" loading="lazy">
+                    <img src="https://image.pollinations.ai/prompt/cozy%20knitted%20wool%20sweater%2C%20natural%20colors%2C%20soft%20texture%2C%20photorealistic%2C%20studio%20lighting?width=800&height=250&seed=3" alt="Купить уютный шерстяной свитер ручной работы" loading="lazy">
                     <div class="product-info">
                         <h3>Уютный шерстяной свитер</h3>
-                        <p>Классический свитер из 100% натуральной шерсти. Идеален для холодных зимних вечеров.</p>
+                        <p>Классический свитер из 100% натуральной шерсти. Теплый и комфортный, идеален для холодных зимних вечеров. Материалы: мериносовая шерсть, натуральные волокна. Размеры: S, M, L. Уход: ручная стирка при 30°C, не колется и гипоаллергенен. Подходит для повседневной носки.</p>
                         <span class="product-price">2999 ₽</span>
+                        <a href="#contact" class="cta-button">Заказать</a>
                     </div>
+                    <script type="application/ld+json">
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Уютный шерстяной свитер",
+                            "image": "https://image.pollinations.ai/prompt/cozy%20knitted%20wool%20sweater%2C%20natural%20colors%2C%20soft%20texture%2C%20photorealistic%2C%20studio%20lighting?width=800&height=250&seed=3",
+                            "description": "Классический свитер из 100% натуральной шерсти. Теплый и комфортный, идеален для холодных зимних вечеров. Материалы: мериносовая шерсть, натуральные волокна. Размеры: S, M, L. Уход: ручная стирка при 30°C.",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "2999",
+                                "priceCurrency": "RUB"
+                            }
+                        }
+                    </script>
                 </div>
                 <div class="product-card">
                     <!-- Сгенерированное изображение для "Теплые домашние носки" -->
-                    <img src="https://image.pollinations.ai/prompt/pair%20of%20warm%20knitted%20angora%20socks%2C%20soft%20and%20fluffy%2C%20on%20a%20wooden%20surface%2C%20hygge%20style%2C%20macro%20shot?width=800&height=250&seed=4" alt="Теплые носки" loading="lazy">
+                    <img src="https://image.pollinations.ai/prompt/pair%20of%20warm%20knitted%20angora%20socks%2C%20soft%20and%20fluffy%2C%20on%20a%20wooden%20surface%2C%20hygge%20style%2C%20macro%20shot?width=800&height=250&seed=4" alt="Купить теплые домашние носки из ангоры ручной работы" loading="lazy">
                     <div class="product-info">
                         <h3>Теплые домашние носки</h3>
-                        <p>Мягкие и пушистые носки из ангоры, которые согреют ваши ноги.</p>
+                        <p>Мягкие и пушистые носки из ангоры, которые согреют ваши ноги. Нежная текстура, отличное качество. Материалы: 100% ангора. Размеры: 37-41. Уход: стирать вручную, сушить горизонтально. Гипоаллергенно, подходит для холодных дней дома.</p>
                         <span class="product-price">799 ₽</span>
+                        <a href="#contact" class="cta-button">Заказать</a>
                     </div>
+                    <script type="application/ld+json">
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Теплые домашние носки",
+                            "image": "https://image.pollinations.ai/prompt/pair%20of%20warm%20knitted%20angora%20socks%2C%20soft%20and%20fluffy%2C%20on%20a%20wooden%20surface%2C%20hygge%20style%2C%20macro%20shot?width=800&height=250&seed=4",
+                            "description": "Мягкие и пушистые носки из ангоры, которые согреют ваши ноги. Нежная текстура, отличное качество. Материалы: 100% ангора. Размеры: 37-41. Уход: стирать вручную.",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "799",
+                                "priceCurrency": "RUB"
+                            }
+                        }
+                    </script>
                 </div>
                 <div class="product-card">
                     <!-- Сгенерированное изображение для "Стильный вязаный шарф" -->
-                    <img src="https://image.pollinations.ai/prompt/long%20knitted%20wool%20scarf%2C%20fashionable%2C%20draped%20over%20a%20mannequin%2C%20studio%20photography%2C%20elegant%2C%20high%20detail?width=800&height=250&seed=5" alt="Вязаный шарф" loading="lazy">
+                    <img src="https://image.pollinations.ai/prompt/long%20knitted%20wool%20scarf%2C%20fashionable%2C%20draped%20over%20a%20mannequin%20studio%20photography%2C%20elegant%2C%20high%20detail?width=800&height=250&seed=5" alt="Купить стильный вязаный шарф ручной работы" loading="lazy">
                     <div class="product-info">
                         <h3>Стильный вязаный шарф</h3>
-                        <p>Длинный и широкий шарф, который дополнит любой зимний образ.</p>
+                        <p>Длинный и широкий шарф, который дополнит любой зимний образ. Элегантный дизайн, высокое качество. Материалы: натуральная шерсть. Длина: 200 см. Уход: ручная стирка. Подходит для женщин и мужчин, стильный аксессуар для повседневного использования.</p>
                         <span class="product-price">1499 ₽</span>
+                        <a href="#contact" class="cta-button">Заказать</a>
+                    </div>
+                    <script type="application/ld+json">
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Стильный вязаный шарф",
+                            "image": "https://image.pollinations.ai/prompt/long%20knitted%20wool%20scarf%2C%20fashionable%2C%20draped%20over%20a%20mannequin%20studio%20photography%2C%20elegant%2C%20high%20detail?width=800&height=250&seed=5",
+                            "description": "Длинный и широкий шарф, который дополнит любой зимний образ. Элегантный дизайн, высокое качество. Материалы: натуральная шерсть. Длина: 200 см. Уход: ручная стирка.",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "1499",
+                                "priceCurrency": "RUB"
+                            }
+                        }
+                    </script>
+                </div>
+               </div>
+                    <script type="application/ld+json">
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": "Шапка-бини ручной работы",
+                            "image": "https://image.pollinations.ai/prompt/handmade%20merino%20wool%20beanie%20hat%2C%20simple%20and%20warm%2C%20on%20a%20rustic%20background%2C%20close-up%2C%20soft%20focus?width=800&height=250&seed=6",
+                            "description": "Удобная и теплая шапка, связанная из мериносовой шерсти. Легкая, дышащая, подходит для активного отдыха. Материалы: 100% мериносовая шерсть. Размер: универсальный. Уход: стирать вручную.",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "1299",
+                                "priceCurrency": "RUB"
+                            }
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shipping" class="shipping">
+        <div class="container">
+            <h2>Доставка и оплата</h2>
+            <div class="shipping-content">
+                <div class="shipping-info">
+                    <div class="payment-methods">
+                        <h3>Способы оплаты</h3>
+                        <ul>
+                            <li>Банковской картой</li>
+                            <li>Перевод на карту</li>
+                            <li>Наличными при самовывозе</li>
+                        </ul>
+                    </div>
+                    <div class="delivery-methods">
+                        <h3>Доставка</h3>
+                        <ul>
+                            <li>По Москве и Московской области: 300 ₽</li>
+                            <li>По России: от 500 ₽ (Почта России, СДЭК)</li>
+                            <li>Самовывоз: бесплатно</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="product-card">
-                    <!-- Сгенерированное изображение для "Шапка-бини ручной работы" -->
-                    <img src="https://image.pollinations.ai/prompt/handmade%20merino%20wool%20beanie%20hat%2C%20simple%20and%20warm%2C%20on%20a%20rustic%20background%2C%20close-up%2C%20soft%20focus?width=800&height=250&seed=6" alt="Шапка бини" loading="lazy">
-                    <div class="product-info">
-                        <h3>Шапка-бини ручной работы</h3>
-                        <p>Удобная и теплая шапка, связанная из мериносовой шерсти. Подходит для активного отдыха.</p>
-                        <span class="product-price">1299 ₽</span>
-                    </div>
+                <div class="cta-section">
+                    <p>Готовы заказать? Напишите нам!</p>
+                    <a href="#contact" class="cta-button">Связаться с нами</a>
                 </div>
             </div>
         </div>
